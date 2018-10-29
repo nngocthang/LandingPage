@@ -4699,3 +4699,19 @@ Theme Version:	1.1.0
 	});
 
 }).apply(this, [window.theme, jQuery]);
+
+$(document).ready(function(){
+  $("#myImage").zoomer();
+});
+
+$(document).ready(function(){
+  $("#myImage").zoomer({
+    maxLimit: 10
+  });
+});
+
+$(document).ready(function(){
+  $("#myImage").zoomer({
+    zoomingOrigin: (0, 0)
+  });
+});
