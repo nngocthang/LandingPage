@@ -5655,7 +5655,7 @@ h2.text-content
 	font-size:20px;
   	color:red;
   	font-weight: bold;
-=======
+}
 
 .slide li:not(:target) {
 	-webkit-animation: noTarget 1s 1;
@@ -5664,5 +5664,17 @@ h2.text-content
 .thumbs li,
 .thumbs li a {
 	list-style: none;
->>>>>>> 3d98b29788e4d9aeca6660dcbc3cf50a087cad67
+
+}
+
+@media (max-width: 480px)
+{
+#aboutus {
+	padding:0 40px;
+	
+}
+}
+
+p{
+	font-size:14px;
 }
