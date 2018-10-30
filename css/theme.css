@@ -5675,6 +5675,15 @@ h2.text-content
 }
 }
 
+@media (min-width: 660px)
+{
+#aboutus {
+	padding:0 40px;
+	
+}
+}
+
 p{
 	font-size:14px;
 }
+
