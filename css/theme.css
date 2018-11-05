@@ -5653,7 +5653,7 @@ html.gap-outside #header .header-container:after {
 h2.text-content
 {
 	font-size:20px;
-  	color:red;
+  	color:rgba(41, 39, 218, 0.8);
   	font-weight: bold;
 }
 
